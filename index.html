@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Macro Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./form.css" />
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header h">
+            <div class="logo">
+                <img src="./assets/images/Logo.jpg">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#index.html" class="active">Home</a></li>
+                    <li><a href="https://shapescale.com/blog/health/nutrition/how-to-count-macros/">Macros</a></li>
+                    <li><a href="https://ericescamilla.com">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="form f">
+            <form>
+                Enter Your Weight in Pounds:<br>
+                <input type="number" name="weight" id="weight" placeholder="180"><br>
+                Enter your metabolic rate: slow, medium, or fast:<br>
+                <input type="radio" name="metabolism" id="Fast" value="Fast"> Fast<br>
+                <input type="radio" name="metabolism" id="Medium" value="Medium"> Medium<br>
+                <input type="radio" name="metabolism" id="Slow" value="Slow"> Slow<br><br>
+                Please enter your age:<br>
+                <input type="number" name="age" id="age" placeholder="25"><br>
+                Would you like to Lose, Gain, or Maintain your weight?<br>
+                <input type="radio" name="goal" id="Lose" value="Lose"> Lose<br>
+                <input type="radio" name="goal" id="Gain" value="Gain"> Gain<br>
+                <input type="radio" name="goal" id="Maintain" value="Maintain"> Maintain<br>
+
+                <input type="submit" value="Submit" onclick="showData();">
+            </form>
+        </div>
+        <div class="results r" id="results">
+            
+        </div>
+
+        <div class="goku g">
+            <img src="assets/images/goku.gif">
+        </div>
+        <div class="vegeta v">
+            <img src="assets/images/vegeta.gif">
+        </div>
+        <div class="powering p">
+            <img src="assets/images/powering.gif">
+        </div>
+        <div class="footer t">
+            <ul class="copyright">
+                <li>&copy; Macro Calculator. All rights reserved.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

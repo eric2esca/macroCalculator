@@ -1,0 +1,50 @@
+input[type=text],input[type=number], select {
+  width: 100%;
+  background-color: #def;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  background-color: #acd;
+}
+input[type=number]:focus {
+  background-color: #acd;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #acd;
+}
+
+div .form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #222;
+  padding: 20px;
+  text-align: left;
+  font-family: 'Staatliches', cursive;
+}
+
+div .results{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5em;
+}
